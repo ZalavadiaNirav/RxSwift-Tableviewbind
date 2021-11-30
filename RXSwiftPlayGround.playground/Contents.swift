@@ -59,6 +59,22 @@ import UIKit
     dartScrore.onNext(40)
     dartScrore.onNext(50)
 
-
+//Buffer
+let disposeBag3 = DisposeBag()
+let dartScrore2 = PublishSubject<Int>()
+dartScrore2
+    .buffer(timeSpan:DispatchTimeInterval.seconds(3), count: 3, scheduler: MainScheduler.instance)
+    .map {
+        print($0,"=> ",terminator: "")
+        return $0.reduce(0,+)
+    }
+    .scan(500, accumulator: -)
+    .map { max($0,0) }
+    .subscribe(onNext: {
+        print("Buffer = \($0)")
+    }).disposed(by: disposeBag3)
+    dartScrore2.onNext(40)
+    dartScrore2.onNext(50)
+    dartScrore2.onNext(30)
 
 
