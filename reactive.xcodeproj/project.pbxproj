@@ -56,6 +56,7 @@
 		1E32D897274B71D9008AFB25 /* reactiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1ED6FC1727560B1000EE83A5 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		1ED6FC1A27560B5300EE83A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1ED6FC1D275629E900EE83A5 /* RXSwiftPlayGround.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RXSwiftPlayGround.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		31CD6B0A5CF31A4802C78CAB /* Pods-reactive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactive.debug.xcconfig"; path = "Target Support Files/Pods-reactive/Pods-reactive.debug.xcconfig"; sourceTree = "<group>"; };
 		3324F445C47438BDE46AEC25 /* Pods-reactiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveTests.release.xcconfig"; path = "Target Support Files/Pods-reactiveTests/Pods-reactiveTests.release.xcconfig"; sourceTree = "<group>"; };
 		4790CAA7584715828CC432D5 /* Pods_reactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +112,7 @@
 		1E32D868274B71D6008AFB25 = {
 			isa = PBXGroup;
 			children = (
+				1ED6FC1D275629E900EE83A5 /* RXSwiftPlayGround.playground */,
 				1E32D873274B71D6008AFB25 /* reactive */,
 				1E32D88A274B71D9008AFB25 /* reactiveTests */,
 				1E32D894274B71D9008AFB25 /* reactiveUITests */,
